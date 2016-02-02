@@ -1,0 +1,11 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="sparc.aws">
+    
+    <utility
+    	component=".session.boto3SessionFactory"
+    	name="sparc.aws.boto3_session"
+    	/>
+
+</configure>

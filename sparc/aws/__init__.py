@@ -9,3 +9,4 @@ def Configure():
     SparcConfigure([import_module(__name__)])
 
 #Interface imports start here
+from interfaces import IBoto3Session
