@@ -35,6 +35,7 @@ setup(name='sparc.aws',
           'setuptools',
           'zope.interface',
           'zope.component',
+          'zope.container',
           'boto3', # AWS SDK
           # -*- Extra requirements: -*-
       ],

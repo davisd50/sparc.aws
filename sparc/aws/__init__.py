@@ -9,4 +9,7 @@ def Configure():
     SparcConfigure([import_module(__name__)])
 
 #Interface imports start here
+from interfaces import IAWSResource
 from interfaces import IBoto3Session
+from interfaces import IS3BucketResource
+from interfaces import IS3Resource
