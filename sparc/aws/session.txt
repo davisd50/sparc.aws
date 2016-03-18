@@ -1,10 +1,6 @@
 Generate a valid Boto3 session
 -------------------------------
 
-Configure
->>> from sparc.aws import Configure
->>> Configure()
-
 create a session
 >>> from zope.component import createObject
 >>> session = createObject(u'sparc.aws.boto3_session')
