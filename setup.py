@@ -39,6 +39,9 @@ setup(name='sparc.aws',
           'boto3', # AWS SDK
           # -*- Extra requirements: -*-
       ],
+      tests_require=[
+          'sparc.testing'
+      ],
       entry_points="""
       # -*- Entry points: -*-
       """,
