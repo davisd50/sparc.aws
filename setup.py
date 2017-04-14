@@ -17,6 +17,7 @@ setup(name='sparc.aws',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3'
       ],
       keywords=['zca'],
       author='David Davis',
@@ -35,7 +36,6 @@ setup(name='sparc.aws',
           'setuptools',
           'zope.interface',
           'zope.component',
-          'zope.container',
           'boto3', # AWS SDK
           # -*- Extra requirements: -*-
       ],

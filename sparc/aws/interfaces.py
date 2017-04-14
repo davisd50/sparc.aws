@@ -1,9 +1,9 @@
-from zope.interface import Interface
+from zope import interface
 
-class IBoto3Session(Interface):
+class IBoto3Session(interface.Interface):
     """A marker for a boto3.session.Session"""
 
-class IAWSResource(Interface):
+class IAWSResource(interface.Interface):
     """Marker for an AWS resource"""
 
 class IS3Resource(IAWSResource):
