@@ -1,0 +1,10 @@
+#Boto3SessionParameters
+# Parameters for initializing a Boto3 Session
+# see: https://boto3.readthedocs.io/en/latest/reference/core/session.html
+Boto3SessionParameters:
+ args:
+  - arg_1
+  - arg_2
+ kwargs:
+  key_1: value_1
+  key_2: value_2
